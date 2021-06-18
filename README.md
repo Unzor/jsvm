@@ -1,6 +1,16 @@
 # jsvm
 JavaScript virtualization library with QEMU in the backend
 
+# Installation
+Include in your own site:
+```html
+  <script src="jsvm.js"></script>
+```
+or get it from a CDN:
+```html
+<script src="https://cdn.jsdelivr.net/gh/Unzor/jsvm/jsvm.js"></script>
+```
+
 # Usage
 Example HTML code:
 ```html
