@@ -23,5 +23,11 @@ Example HTML code:
 </body>
 </html>
 ```
+```diff
+- * Windows 1.1 image from https://github.com/copy/images.
+```
 
-Windows 1.1 image from [https://github.com/copy/images](https://github.com/copy/images).
+To check again for elements/VM instances that need to be initialized, use this:
+```javascript
+JSvm.checkForElements();
+```
