@@ -35,5 +35,7 @@ JSvm.checkForElements();
 # Modes
 
 ```<vm-instance cd-rom="url"></vm-instance>``` - CD ROMS: .iso
+
 ```<vm-instance floppy-disk="url"></vm-instance>``` - Floppy Disks: .img, .dsk
+
 ```<vm-instance hard-disk="url"></vm-instance>``` - Hard Disks: Unknown.
