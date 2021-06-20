@@ -31,6 +31,7 @@ To check again for elements/VM instances that need to be initialized, use this:
 ```javascript
 JSvm.checkForElements();
 ```
+This is useful when after adding new VM instances programmatically.
 
 # Modes
 
