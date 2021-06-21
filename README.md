@@ -27,6 +27,13 @@ Example HTML code:
 - * Windows 1.1 image from https://github.com/copy/images.
 ```
 
+To create a VM instance programmatically, use this example:
+```javascript
+var jsvm_instance = JSvm.createInstance();
+jsvm_instance.setAttribute('cd-rom', 'linux.iso');
+document.body.appendChild(jsvm_instance);
+JSvm.checkForElements();
+```
 To check again for elements/VM instances that need to be initialized, use this:
 ```javascript
 JSvm.checkForElements();
