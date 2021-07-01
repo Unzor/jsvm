@@ -30,7 +30,7 @@ Example HTML code:
 To create a VM instance programmatically, use this example:
 ```javascript
 var jsvm_instance = JSvm.createInstance();
-jsvm_instance.setAttribute('cd-rom', 'linux.iso');
+JSvm.setCDRom(jsvm_instance, "linux.iso");
 document.body.appendChild(jsvm_instance);
 JSvm.checkForElements();
 ```
