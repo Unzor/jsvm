@@ -46,4 +46,4 @@ This is useful when after adding new VM instances programmatically.
 
 ```<vm-instance floppy-disk="url"></vm-instance>``` - Floppy Disks: .img, .dsk
 
-```<vm-instance hard-disk="url"></vm-instance>``` - Hard Disks: Unknown.
+```<vm-instance hard-disk="url"></vm-instance>``` - Hard Disks: .img
