@@ -47,3 +47,14 @@ This is useful when after adding new VM instances programmatically.
 ```<vm-instance floppy-disk="url"></vm-instance>``` - Floppy Disks: .img, .dsk
 
 ```<vm-instance hard-disk="url"></vm-instance>``` - Hard Disks: .img
+
+```<vm-instance state="url"></vm-instance>``` - Save State: .bin
+
+# API Modes
+```JSvm.setCDRom(element, url)``` - CD ROMS: .iso
+```JSvm.setFloppyDisk(element, url)``` - Floppy Disks: .img, .dsk
+```JSvm.setHardDisk(element, url)``` - Hard Disks: .img
+```JSvm.setState(element, url)``` - Save State: .bin
+
+
+
