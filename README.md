@@ -52,8 +52,11 @@ This is useful when after adding new VM instances programmatically.
 
 # API Modes
 ```JSvm.setCDRom(element, url)``` - CD ROMS: .iso
+
 ```JSvm.setFloppyDisk(element, url)``` - Floppy Disks: .img, .dsk
+
 ```JSvm.setHardDisk(element, url)``` - Hard Disks: .img
+
 ```JSvm.setState(element, url)``` - Save State: .bin
 
 
