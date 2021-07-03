@@ -18,7 +18,7 @@ Example HTML code:
 <!DOCTYPE HTML>
 <html>
 <body>
-  <script src="https://cdn.jsdelivr.net/gh/Unzor/jsvm/jsvm.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/Unzor/jsvm/dist/jsvm.js"></script>
   <vm-instance floppy-disk="images/windows101.img"></vm-instance>
 </body>
 </html>
